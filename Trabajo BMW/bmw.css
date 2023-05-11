@@ -1,0 +1,285 @@
+*{
+  margin:0;
+    padding: 0;
+list-style: none;
+}
+
+
+
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width:100vw ;
+    height:100vh ;
+    background-image: url("https://img.remediosdigitales.com/079619/p90422105_highres_the-bmw-ix-xdrive50-/1366_2000.jpeg") ;
+    background-size: cover;
+   
+}
+
+
+.header__nav{ 
+
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ width: 100vw;
+ height: 10vh;
+}
+
+.header__nav::after{
+    width: 1100px ;
+    height: 1px;
+    background-color: rgb(100, 105, 114);
+    position: absolute;
+    content: "";
+    top: 10%;
+    right: 25%;
+}
+
+.header__nav__menuizq{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    
+}
+
+
+
+.header__nav__menuder{
+    
+    display: flex;
+    
+    gap: 20px;
+}
+
+
+.prueba{
+  
+    padding: 30px 0 0 0;
+    width: 25px;
+}
+
+
+
+
+.logo{
+    width: 100px;
+
+}
+
+
+
+.button-foot{
+    background-color: #1C68D5;
+    border: none;
+    color: white;
+    padding: 15px 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-foot:hover{
+    color: black;
+}
+
+
+.header__footer{
+   
+    position: relative;
+    top: 75%;
+    left: 4%;
+    width: 90%;
+  }
+
+ 
+    main{
+        color: black;
+    }
+
+  .main__nav{
+    margin: 200px;
+    padding: 0 0 0 270px;
+    
+  }
+  
+  
+
+.main__nav__ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(108, 106, 106);
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.big{
+    text-decoration: underline;
+    font-size: xx-large;
+    color: black;
+}
+
+.serie{
+    
+    margin-bottom: 5%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large
+}
+.coche{
+    width: 190px;
+
+}
+
+.section{
+    
+    font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+    flex-wrap: wrap;
+    margin-left: 24%;
+    width: 50%;
+   
+
+}
+   
+
+.section__item{
+    width: 25%;
+}
+
+
+
+.aside{
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 24%;
+     width: 50%;
+     margin-top: 6%;
+
+}
+
+
+.aside__item{
+    width:20%;
+    border: 1px solid rgb(185, 185, 185);
+    padding:15px;
+    cursor: pointer;
+}
+
+
+.divi__videos__imgvideos{
+    width: 400px;
+    
+}
+
+
+.divi{
+margin-top:3% ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+   
+    margin-left: 27%;
+    
+  
+    
+
+}
+
+.sectione__item__ico{
+
+    
+    width:40px ;
+    margin-left: 30px;
+    
+}
+
+
+.sectione{
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.sectione__item{
+    
+    display: flex;
+    justify-content: center;
+    padding:5% ;
+    gap:10px ;
+
+
+
+}
+
+.section__item__div{
+    background-color: rgb(223, 217, 217);
+    padding: 10% ;
+   
+   
+   
+}
+
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 101, 101);
+    width:100%;
+    height: 250px;
+    background-color: rgb(215, 207, 207);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    
+    position: relative;
+} 
+
+
+.footer__span{
+   
+    color:black;
+    font-size: large;
+    font-weight:bold;
+}
+.footer__ul{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.footer__div{
+    width: 20%;
+    display: flexbox;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.footer__div::before{
+    content:"";
+    width: 80%;
+    height: 1px;
+    background-color: rgba(81, 79, 79, 0.533);
+    position: absolute;
+    top:15%;
+    left: 10%;
+}
+
+
+
+
+
+
+
+

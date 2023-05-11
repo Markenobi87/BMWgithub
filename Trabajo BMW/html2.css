@@ -1,0 +1,55 @@
+*{
+    margin 0;
+    padding: 0;
+    list-style: none;
+
+
+
+}
+
+
+header{
+    width:100vw ;
+height:100vh ;
+background-image:  ;
+background-size: cover;
+list-style: none;
+}
+
+
+.header__nav{
+    width: 100vw;
+    height:10vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__nav::after{
+    width:1000px ;
+    height: ;
+    background-color:rgb(86, 87, 99) ;
+    align-items: center;
+    top: 10%;
+    content:"";
+}
+
+.header__nav__ul--anchos{
+    display: flex;
+    gap:30px;
+}
+
+
+.header__nav__ul--icons{
+    display: flex;
+    
+}
+
+.prueba{
+    width: 10px
+}
+
+.logo{
+    
+    width: ;
+}
