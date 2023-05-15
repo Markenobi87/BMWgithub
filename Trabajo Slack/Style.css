@@ -1,0 +1,380 @@
+*{font-family: Arial, Helvetica, sans-serif;
+ margin:0;
+ padding:0;
+ list-style: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+header {
+background-color: #541554;
+width:100% ;
+height:100px ;}
+ 
+.header__nav{
+    margin: 0 5%;
+    display: flex;
+   
+    height: 110px;
+    justify-content: space-between;}
+
+.nav__logo{
+    display: flex;
+    align-items: center;}
+    
+.nav__menu{
+  display: flex;
+ align-items: center;}
+
+.logo{
+    width: 100px;
+    height: 25px;}
+
+.menu{
+cursor: pointer;
+    width: 20px;}
+
+/*-----FIN NAV-------*/
+
+.header-text{
+   
+    height: 670px;
+    background-color:#541554;
+    display: grid;
+    grid-template-columns: 100%;}
+
+ .div-text{
+    text-align: center;
+    letter-spacing: -1.5px;
+    line-height: 1.0625;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;}
+  
+
+    .h1-white{
+    color: white;}
+   h1{
+    font-weight: 700;
+    font-size: 3rem;}
+  
+.text--yellow {
+    color:#ECB22E;
+   
+     font-size:3rem;}
+
+    .header-text__p{
+        margin: 1rem 2rem;
+        color: white;
+        font-weight: 300;
+        font-size:large
+    }
+     .header__button{
+        height: 119px;
+        padding: 2px 30px 0px 5px;
+        
+    }
+     .button-white{
+        cursor: pointer;
+        color: #541554;
+        background-color:#FFFFFF;
+        border: none;
+        padding: 19px 121px 20px;
+        width: 100%;
+     }
+
+     .button-white:hover{
+        font-size: large;
+     }
+
+     .button-blue{
+        cursor: pointer;
+        color: white;
+       background-color:#4285F4;
+        border: none;
+        padding: 19px 112px 20px;
+        margin-top: 0.5rem;
+        width: 100%;
+     }
+     .button-blue:hover{
+        font-size: large;
+
+     }
+
+.header-text__video-purple img{
+    margin-top: 2rem;
+    width: 100%;
+    
+/*--------Finish header-text*------*/
+/*MAIN*/
+
+.main-container{
+    width: 100%;
+    height: 989px;
+    background-color: #4B154B;}
+
+}
+
+.main__section-icon{
+ background-color: #F4EDE4;
+ height:23rem ;
+
+}
+
+.main-p-icon{
+    padding:3rem 1rem;
+    background-color: #F4EDE4;
+    font-weight:700;
+    font-size:medium;
+    text-align: center  
+}
+
+.section-icon{
+    background-color: #F4EDE4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding:0 45px;
+}
+
+.byb{
+    width: 110px;}
+.nasa{
+    width: 70px;
+}    
+.uber{
+    width: 80px;
+}
+.diana{
+    width: 50px;
+}
+.times{
+    width: 190px;
+}
+.etsy{
+    width: 70px;
+}
+.section-yellow{
+    background-color:#F4EDE4 ;
+    height: 630px;
+    display: grid;
+    grid-template-columns: 100%;
+    }
+
+.yellow-pic{
+    
+    width: 60%;
+}
+.yellow-h2{
+ 
+ font-size: xx-large;
+padding: 0px 0px 0px 40px;
+}
+
+.yellow-p{
+    padding: 20px 0px 0px 40px;
+}
+
+.yellow-enlace{
+    padding: 15px 40px;
+}
+
+.porcentaje-section{
+    width: 100%;
+    height: 1150px;
+    line-height: 1.12;
+    letter-spacing: -.8px;
+}
+
+.porcentaje-h3{
+    padding: 40px 0px 0px 40px;
+    font-size:xx-large;
+}
+  
+.porcentaje-p{
+    padding: 19px 40px 20px;
+    font-size: large;
+}
+    
+.porcentaje-button{
+    height: 119px;
+    padding: 60px 40px 0px 30px;
+    display: grid;
+    grid-template-columns: 100%;
+      
+}
+ .button-purple{
+    cursor: pointer;
+    color: white;
+    background-color:#4B154B;
+    border: none;
+    padding: 19px 40px 20px;
+    width: 100%;
+ }
+ .button-purple:hover{
+    font-size: large;
+ }
+ 
+ .button-wp{
+    cursor: pointer;
+    color:#4B154B;
+    background-color: #FFFFFF;
+    border: solid 1px;
+    padding: 19px 40px 20px ;
+    margin-top: 1rem;
+    width: 100%;
+}
+.button-wp:hover{
+    font-size: large;
+}
+
+.lista{
+    height: 900px;
+}
+ 
+.ul__container{
+    font-size:x-large;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: stretch;
+    padding-top: 1.5rem;
+    line-height: 1.4444;
+    }
+
+.li__container{
+    text-align: center;
+    max-width: 190px;
+    margin-bottom: 0;
+    display: list-item;
+}
+
+.number{
+    color: #541554;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: normal;
+    display: inline-block;
+    margin-bottom: 0.25rem;
+}
+
+.texto{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.purple{
+padding: 80px;
+background-color: #541554;
+height: auto;
+clip-path: ellipse(90% 100% at center top)
+}
+
+ .footer-h{
+    color: white;
+    font-size: xx-large;
+ }
+.button-wfooter{
+    cursor: pointer;
+    color:#4B154B;
+    background-color: #FFFFFF;
+    border: none ;
+    padding: 19px 40px 20px ;
+    margin-top: 2rem;
+    width: 100%;
+}
+.button-wfooter:hover{
+    font-size: large;
+}
+
+.button-pfooter{
+    cursor: pointer;
+    color: white;
+    background-color:#4B154B;
+    border: solid 1px;
+    border-color: #FFFFFF;
+    padding: 19px 40px 20px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.button-pfooter:hover{
+ font-size: large;
+}
+
+.footer-logo{
+    width: 250px;
+    padding: 70px 40px 40px;
+
+}
+.grid-footer-list li {
+    padding: 20px 30px;
+    font-weight: 600;
+}
+
+.grid-footer-icons li{
+    padding: 20px 100px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.container-footer-list{
+    display: grid;
+  grid-template-columns: 50% 50%;
+   
+}
+
+@media (min-width: 768px){
+     .header-text{
+        
+        display: grid;
+        grid-template-columns: 50% 50%;
+       
+     }
+     .section-yellow{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0px 250px 30px 200px;
+        align-items: center;
+        
+     }
+
+      .section-icon{
+        
+        padding: 0px 300px;
+        gap: 60px;
+      }
+      .porcentaje-button{
+        display: grid;
+        grid-template-columns: 50% 50%;
+       }
+
+     
+    }
+
+    @media screen and (min-width: 0) and (max-width: 767px){
+        .ul__container{
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+        padding-bottom: 2rem;}
+    }
+
+        
+    @media screen and (min-width: 0) and (max-width: 1023px){
+.t-dark-theme.v--footer {clip-path: ellipse(105% 100% at center top);
+padding-bottom:6rem; }
+    
+
+}
+
+
+
+
+
