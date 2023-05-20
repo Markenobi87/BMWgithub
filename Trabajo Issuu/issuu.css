@@ -1,25 +1,143 @@
-img{
- width: 150px;
- height: 40px;
-
+*{
+   font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo{
+    margin: 30px;
+}
 
-.top {
-    margin: 20px  ;
+.t-h{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-h{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .bt-header{
+        display: flex;
+        justify-content: center;
+        width: 818px;
+        gap: 8px;
+    }
+
+    .bt-google{
+        font-size: medium;
+        padding: 10px 50px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid 1px;
+} 
+
+    .bt-facebook{
+        font-size: medium;
+        padding: 10px 50px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid 1px;
+}
+    .pa-h{
+        display: flex;
+        justify-content: center;
+        width: 818px;
+        gap: 8px;
+    }
     
     
 
-}
-
-
-.top-derecha{
-  
-}
-
-
-.formulario{
-    margin: 90px ;
-   
+    .box-main{
+        margin: 20px 140px;
+        background-color: #F5F5FF;
+        align-items: center;
+        justify-content: center;
+        width: 550px;
+        height: 550px;
     
+
+    }
+
+    .f-box{
+      
+      padding: 50px 40px;
+    }
+
+    .form-n{
+    
+        display: flex;
+        
+        gap: 60px;
+       
+
+        
+    }
+    .d-n{
+      
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .d-l{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px ;
+    }
+
+
+    .user{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px ;
+    }
+
+    .password{
+    
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px ;
+    }
+    .space{
+        margin-top: 15px;
+    }
+
+
+    .bt-send{ background-color: black;
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        margin-top: 60px;
+        padding: 10px 50px;
+        font-weight: 600;
+        border-radius: 8px;
+        border: solid 1px;
+} 
+
+.bt-bt{
+    border: none;
+    background-color: black;
+    color: #F5F5FF;
+}
+
+
+.f-h{
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.bt-dec{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
 }
